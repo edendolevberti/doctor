@@ -76,11 +76,11 @@ const Footer: React.FC = () => {
             <div className="flex flex-col gap-4 text-sm">
               <div className="flex items-start gap-3 text-gray-500">
                 <MapPin size={20} className="text-blue-600 shrink-0" />
-                <span>מגדלי ויצמן 14, תל אביב<br/>קומה 12, אגף פריון</span>
+                <span>השיקמה 1, סביון</span>
               </div>
               <div className="flex items-center gap-3 text-gray-500">
                 <Phone size={20} className="text-blue-600 shrink-0" />
-                <span>03-123-4567</span>
+                <span>077-9978833</span>
               </div>
               <div className="flex items-center gap-3 text-gray-500">
                 <Mail size={20} className="text-blue-600 shrink-0" />
@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
             <div className="bg-blue-50 rounded-2xl p-6 border border-blue-100">
               <p className="text-blue-900 font-bold text-sm mb-2">זמינות לייעוץ</p>
               <p className="text-blue-700 text-xs leading-relaxed mb-4">
-                אנו עושים מאמץ לתת מענה לכל פנייה תוך 24 שעות עסקים.
+                אנו עושים את המאמץ הנדרש כדי להגיב לכל תשובה תוך יום עסקים אחד.
               </p>
               <a 
                 href="#contact" 

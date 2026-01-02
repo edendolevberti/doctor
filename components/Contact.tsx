@@ -36,8 +36,8 @@ const Contact: React.FC = () => {
 
             <div className="flex flex-col gap-6">
               {[
-                { icon: <MapPin className="text-blue-400" />, label: 'כתובת', val: 'מגדלי ויצמן 14, תל אביב (קומה 12)' },
-                { icon: <Phone className="text-blue-400" />, label: 'טלפון', val: '03-123-4567' },
+                { icon: <MapPin className="text-blue-400" />, label: 'כתובת', val: 'השקמה 1, סביון' },
+                { icon: <Phone className="text-blue-400" />, label: 'טלפון', val: ' 077-9978833' },
                 { icon: <Mail className="text-blue-400" />, label: 'אימייל', val: 'office@prof-yaron.co.il' },
                 { icon: <Clock className="text-blue-400" />, label: 'שעות פעילות', val: 'א\'-ה\', 09:00-18:00' },
               ].map((item, idx) => (
