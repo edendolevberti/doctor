@@ -16,8 +16,8 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1 relative">
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://picsum.photos/id/384/400/500" alt="Clinic 1" className="rounded-2xl shadow-lg mt-8" />
-              <img src="https://picsum.photos/id/369/400/500" alt="Clinic 2" className="rounded-2xl shadow-lg" />
+              <img src="https://media.easy.co.il/images/PICS/5027622.jpg" alt="Clinic 1" className="rounded-2xl shadow-lg mt-8" />
+              <img src="https://www.sheba.co.il/webfiles/images/cache/186X228/aoeX1/webfiles/fck/image/headers/96fffc1af8d27ffea8bf5c049a081ed8.jpg" alt="Clinic 2" className="rounded-2xl shadow-lg" />
             </div>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white p-8 rounded-full shadow-2xl hidden lg:block">
               <span className="text-xl font-bold block text-center">YR</span>

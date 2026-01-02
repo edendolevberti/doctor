@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-slate-50">
+    <section id="hero" className="relative min-h-screen flex items-center pt-32 md:pt-20 overflow-hidden bg-slate-50">
       {/* Decorative Background Elements */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-blue-50/50 -skew-x-12 translate-x-1/4 z-0"></div>
       <div className="absolute top-1/4 left-10 w-64 h-64 bg-blue-200/20 rounded-full blur-3xl z-0"></div>
@@ -91,10 +91,10 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Doctor Image & Profile Card */}
-          <div className="lg:col-span-5 relative hidden lg:block">
+          <div className="lg:col-span-5 relative mt-12 lg:mt-0 max-w-sm mx-auto lg:max-w-none">
             <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white group">
               <img 
-                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=800&auto=format&fit=crop" 
+                src="https://boneiolam.co.il/wp-content/uploads/2018/04/%D7%A4%D7%A8%D7%95%D7%A4-%D7%99%D7%A8%D7%95%D7%9F-%D7%A8%D7%91%D7%99%D7%A0%D7%95%D7%91%D7%99%D7%A5.jpg" 
                 alt="Professor Yaron Rabinowitz" 
                 className="w-full h-auto object-cover aspect-[3/4] group-hover:scale-105 transition-transform duration-700"
               />
@@ -124,7 +124,7 @@ const Hero: React.FC = () => {
           const el = document.getElementById('about');
           if (el) window.scrollTo({ top: el.offsetTop - 90, behavior: 'smooth' });
         }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 hover:opacity-100 transition-opacity cursor-pointer hidden md:flex"
       >
         <span className="text-xs font-bold uppercase tracking-widest text-slate-400">גללו למטה</span>
         <div className="w-px h-12 bg-gradient-to-b from-blue-600 to-transparent"></div>
